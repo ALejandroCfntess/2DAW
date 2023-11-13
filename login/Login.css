@@ -1,0 +1,35 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(./dentro.jpeg);
+    color: aliceblue;
+
+}
+
+h1{
+    margin-bottom: 50px;
+    font-family: Free;
+}
+.cuadro {
+    text-align: center;
+    border: solid black 2px;
+    padding: 5%;
+    border-radius: 15px;
+    background: transparent;
+    backdrop-filter: blur(10px);
+}
+
+
+
+.botonconectar {
+    
+    margin-top: 10px;
+    font-family: Free;
+
+}
+
+
