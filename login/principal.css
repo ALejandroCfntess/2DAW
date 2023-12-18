@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 body{
     background-image: url(./principal.jpeg);
@@ -70,3 +71,77 @@ input[type="text"] {
 }
 
 
+=======
+
+body{
+    background-image: url(./principal.jpeg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Estilos para el título */
+h1 {
+    color: #333;
+    font-size: 80px;
+    font-family: Coffee;
+
+}
+
+
+
+/* Estilos para el label y el input */
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-family: Free;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px; /* Agregar espacio inferior para separar del siguiente elemento */
+}
+
+/* Estilos para los botones */
+.botonf {
+    background-color: #ffffff;
+    font-family: Coffee;
+    font-size: 30px;
+    color: rgb(0, 156, 167);
+    border: none;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px; /
+}
+
+.boton {
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #7c1f1f;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px; /* Agregar espacio inferior para separar del siguiente elemento */
+    font-family: Coffee;
+    font-size: 30px;
+    
+}
+
+
+.boton2 {
+    font-family: Coffee;
+    font-size: 30px;
+    color: #187474;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px; /
+}
+
+
+>>>>>>> f6184758ab92d2725622c19e49a15b984459253c
