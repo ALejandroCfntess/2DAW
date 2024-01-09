@@ -1,0 +1,67 @@
+
+.contenedor{
+    height: 50vh;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: all .4s;
+
+
+}body{
+    background: fixed url(../img/principal.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.code{
+    color:white;
+    transition: all .6s;
+    cursor: pointer;
+}
+nav{
+width: 40%;
+}
+
+.code:hover{
+    color: rgb(255, 0, 128);
+}
+
+#login{
+    display: flex;
+}
+
+#reg{
+    display:none;
+}
+
+
+h2{
+    font-weight: bold;
+}
+
+
+
+#ladoazul {
+    background: linear-gradient(blueviolet, pink) ;
+    position: fixed !important;
+    z-index: 100;
+    width: 35%;
+    height: 50%;
+    left: 15%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .6s;
+}
+.textooo{
+    font-size: 100%;
+    color: rgb(255, 255, 255);
+}
+@media screen and (max-width:1260px) { 
+    .contenedorlogin important{
+        width: 70% ;
+    }
+}
+
